@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Photography Project</title>
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+}
+
+
+header {
+  background: linear-gradient(to right, darkblue, rgb(255, 166, 0));
+  color: white;
+  padding: 30px 0;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+
+.dropdown img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.dropdown img:hover {
+  transform: scale(1.05);
+}
+
+.dropdown img::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+  animation: ripple 1s linear infinite;
+  opacity: 0;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(10);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+footer {
+  background: darkblue;
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer a {
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+
+
+<header>
+  <h2>MY PHOTOGRAPHY PROJECT IMAGES</h2>
+  <p>These images below were taken using the photography skills taught by my instructor, Mr. A Juango. The techniques were used to produce these photos.</p>
+</header>
+
+
+<div class="dropdown">
+  <a target="_blank" href="Fishing Man.html">
+    <img src="Photography\Fishing man 3.jpg" alt="Fishing Man" width="300" height="200">
+    <div class="desc">Fisher Man.</div>
+    <div class="dropdown-content">
+      <img src="Photography\Fishing man 3.jpg" alt="Fishing Man" width="500" height="400">
+      <div class="desc">A fishing man from Hanuabada Port Moresby NCD.</div>
+    </div>
+  </a>
+</div>
+
+<div class="dropdown">
+  <a target="_blank" href="Mother and baby.html">
+    <img src="Photography\Mother and Baby.jpg" alt="Mother and Baby" width="300" height="200">
+    <div class="desc">Mother & Baby.</div>
+    <div class="dropdown-content">
+      <img src="Photography\Mother and Baby.jpg" alt="Mother and Baby" width="500" height="400">
+      <div class="desc">The mother was washing her baby at Ela Beach.</div>
+    </div>
+  </a>
+</div>
+
+<div class="dropdown">
+  <a target="_blank" href="Mother and Containers.html">
+    <img src="Photography\Mothers and plastics.jpg" alt="Mothers and Plastics" width="300" height="200">
+    <div class="desc">Mothers & thir water Containers.</div>
+    <div class="dropdown-content">
+      <img src="Photography\Mothers and plastics.jpg" alt="Mothers and Plastics" width="500" height="400">
+      <div class="desc">Mothers from Kanudi village walking with their water containers to Pomtech Idubada.</div>
+    </div>
+  </a>
+</div>
+
+<div class="dropdown">
+  <a href="point building.html">
+    <img src="Photography\point building.jpg" alt="Vivian Bausen" width="300" height="200">
+    <div class="desc">Harbour Point building.</div>
+    <div class="dropdown-content">
+      <img src="Photography\point building.jpg" alt="Vivian Bausen" width="500" height="400">
+      <div class="desc">The lady was enjoying her leisure time along the Idubada coastline.</div>
+    </div>
+  </a>
+</div>
+
+<div class="dropdown">
+  <a href="vivian bausen.html">
+    <img src="Photography\vivian bausen.jpg" alt="Vivian Bausen" width="300" height="200">
+    <div class="desc">Vivian Bausen.</div>
+    <div class="dropdown-content">
+      <img src="Photography\vivian bausen.jpg" alt="Vivian Bausen" width="500" height="400">
+      <div class="desc">The lady was enjoying her leisure time along the Idubada coastline.</div>
+    </div>
+  </a>
+</div>
+
+<div class="dropdown">
+  <a href="Baby & Sister.html">
+    <img src="Photography\Baby and her sister.jpg" alt="Baby and her sister" width="300" height="200">
+    <div class="desc">Baby and Elder Sister.</div>
+    <div class="dropdown-content">
+      <img src="Photography\Baby and her sister.jpg" alt="Baby and her sister" width="500" height="400">
+      <div class="desc">The Elder sister was taking care for her baby sister during the day.</div>
+    </div>
+  </a>
+</div>
+
+<div class="dropdown">
+  <a href="fishing men 2.html">
+    <img src="Photography\fishing men 2.jpg" alt="fishing men 2" width="300" height="200">
+    <div class="desc">Fishing men from Hanuabada.</div>
+    <div class="dropdown-content">
+      <img src="Photography\fishing men 2.jpg" alt="fishing men 2" width="500" height="400">
+      <div class="desc">The fishing men were using fishing net to catch fish.</div>
+    </div>
+  </a>
+</div>
+
+<div class="dropdown">
+  <a href="sail canoe.html">
+    <img src="Photography\sail canoe.jpg" alt="sail canoe" width="300" height="200">
+    <div class="desc">Fishing men from Hanuabada.</div>
+    <div class="dropdown-content">
+      <img src="Photography\sail canoe.jpg" alt="sail canoe" width="500" height="400">
+      <div class="desc">The fishing men were using fishing net to catch fish.</div>
+    </div>
+  </a>
+</div>
+
+<div class="dropdown">
+  <a href="The children.html">
+    <img src="Photography\The children.jpg" alt="The children" width="300" height="200">
+    <div class="desc">image of children taking care.</div>
+    <div class="dropdown-content">
+      <img src="Photography\The children.jpg" alt="The children" width="500" height="400">
+      <div class="desc">These children were taking care of each other while their parents are away.</div>
+    </div>
+  </a>
+</div>
+
+<div class="dropdown">
+  <a href="flags.html">
+    <img src="Photography\flags.jpg" alt="flags" width="300" height="200">
+    <div class="desc">Differen flags from each provinces.</div>
+    <div class="dropdown-content">
+      <img src="Photography\flags.jpg" alt="flags" width="500" height="400">
+      <div class="desc">The flags from different provinces, where displayed in Pomtech college.</div>
+    </div>
+  </a>
+</div>
+
+
+<footer>
+  <p><a href="../Project 2025.html">Click To  Home Page</a></p>
+  <p>&copy; 2025 Project Photography <i>Ismael Dimi</i></p>
+</footer>
+
+</body>
+</html>
